@@ -16,7 +16,7 @@ for buffer in iter(lambda: inFile.read(1), b''):
         if c == '1':
             outFile.write('E')
         elif c == '0':
-            outFile.write('e')
+            outFile.write('eee')
         else:
             print('error!')
             exit(-1)
